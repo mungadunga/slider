@@ -1,0 +1,57 @@
+.container{
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}
+.slide{
+   width: 290px;
+   height: 160px;
+   background-repeat: no-repeat;
+   border: 3px solid red;
+   position: relative;
+   margin-top: 10%;
+   transform: scale(1.9);
+   display: none
+}
+#one{
+   display: inline-block;
+   background-image: url(./images/img1.jpg);
+}
+#two{
+   display: none;
+   background-image: url(./images/img2.jpg);
+}
+#three{
+   display: none;
+   background-image: url(./images/img3.jpg);
+}
+#four{
+   display: none;
+   background-image: url(./images/img4.jpg);
+}
+#five{
+   display: none;
+   background-image: url(./images/img5.jpg);
+}
+.buttons{
+   color: white;
+   background-color: rgb(255, 122, 122);
+   margin: 0;
+   height: 50px;
+   width: 45px;
+   border: 3px solid red;
+   outline: none;
+   cursor: pointer;
+   position: absolute;
+   bottom: 500px;
+   bottom: 410px;
+}
+#buttonPlus{
+   margin-left: 600px;
+}
+#buttonMinus{
+   margin-right: 600px;
+}
+.buttons:hover{
+   background-color:rgb(255, 149, 149)
+}
